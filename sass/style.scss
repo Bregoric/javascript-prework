@@ -1,0 +1,51 @@
+.container {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    min-height: 400px;
+    flex-direction: column;
+}
+
+#messages {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    font-size: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: blue;
+    margin: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+#play-rock {
+    background-color: rgb(173, 85, 47);
+}
+
+#play-scissors {
+    background-color: rgb(69, 193, 117);
+}
+
+#play-paper {
+    background-color: rgb(125, 40, 170);
+}
+
+.gameName {
+    font-size: 48px;
+    color: rgb(176, 204, 66);
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.gameInstructions {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 12px;
+}

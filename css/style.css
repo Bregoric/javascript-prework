@@ -1,3 +1,53 @@
+.container {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  min-height: 400px;
+  flex-direction: column;
+}
 
+#messages {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+button {
+  font-size: 24px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: blue;
+  margin: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+#play-rock {
+  background-color: rgb(173, 85, 47);
+}
+
+#play-scissors {
+  background-color: rgb(69, 193, 117);
+}
+
+#play-paper {
+  background-color: rgb(125, 40, 170);
+}
+
+.gameName {
+  font-size: 48px;
+  color: rgb(176, 204, 66);
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.gameInstructions {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtBQ0NKOztBREVBO0VBQ0ksWUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0ksZUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxrQ0FBQTtBQ0NKOztBREVBO0VBQ0ksbUNBQUE7QUNDSjs7QURFQTtFQUNJLG1DQUFBO0FDQ0o7O0FERUE7RUFDSSxlQUFBO0VBQ0Esd0JBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0FDQ0o7O0FERUE7RUFDSSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0FDQ0oiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
